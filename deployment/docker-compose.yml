@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+
+  dsve-shell:
+    image: dsve:shell
+    stop_grace_period: 30s
+
+  dsve-exec:
+    image: dsve:exec
+    stop_grace_period: 30s
